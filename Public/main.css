@@ -1,0 +1,74 @@
+body {
+  color: black;
+  font-family: "Helvetica", sans-serif;
+}
+
+.background-image {
+  background-image: url("/images/union-jack.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+h1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: white;
+  color: blue;
+}
+
+.person {
+  background-color: rgb(0, 5, 245);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 5, 245, 0.6587228641456583) 0%,
+    rgba(110, 140, 255, 0.7427564775910365) 24%,
+    rgba(90, 249, 255, 0.42622986694677867) 71%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 400px;
+  margin-top: 20px;
+}
+
+.text {
+  background-color: rgb(128, 128, 128, 0.2);
+}
+
+.img-circle {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 230px;
+  height: 245px;
+  padding: 20px;
+}
+
+.information {
+  margin: 10px;
+}
+
+.homebtn {
+  position: absolute;
+  color: black;
+  left: 50px;
+  top: 20px;
+  font-size: 20px;
+}
+
+.info {
+  text-align: center;
+  font-size: x-large;
+  position: relative;
+  top: -35px;
+}

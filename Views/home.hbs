@@ -1,12 +1,14 @@
-<div class="background-image">
-  <div class="container">
-    {{#each poshPeople}}
-    <div class="face-circle">
-      <a href="/poshPeople/{{id}}"><img class="img-circle" src="{{image}}" alt="{{name}}"></a>
-    </div>
-    {{/each}}
-  </div>
-  <div class = "info">
-  <p>Click your favourite Spice Gal to learn more about them!</p>
-  </div>
+<div class="portal-container">
+  <div class="homepage-button">
+  <img class="logo" src="{{rpo.button}}" alt="RPO logo">
+</div>
+<div class="login-form">
+  <form action="/" method="post">
+  <label for="username">Username:</label><br>
+  <input type="text" name="username"><br>
+  <label for="lname">Password:</label><br>
+  <input type="password" name="password">
+  <button>SUBMIT</button>
+</form>
+</div>
 </div>

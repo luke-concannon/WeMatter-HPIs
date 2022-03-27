@@ -1,21 +1,8 @@
-body {
-  color: black;
-  font-family: "Helvetica", sans-serif;
-}
-
 .background-image {
-  background-image: url("/images/union-jack.gif");
+  background-image: url('/images/union-jack.gif');
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
-}
-
-h1 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  background-color: white;
-  color: blue;
 }
 
 .person {
@@ -71,4 +58,62 @@ h1 {
   font-size: x-large;
   position: relative;
   top: -35px;
+}
+
+/* --------- Below is new CSS for WeMatter Portal ------ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Belleza', sans-serif;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-family: 'Helvetica', sans-serif;
+}
+
+form {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+form button {
+  background-color: #0c353d;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  margin: 10px;
+}
+
+.homepage-button {
+  padding: 20px;
+}
+
+.portal-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.login-form {
+  padding: 20px;
+  display: flex;
+  align-items: center;
 }

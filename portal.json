@@ -1,0 +1,38 @@
+{
+    "rpo": {
+    "logo": "/images/RPO+logo+master.png",
+    "button": "/images/rpo-button.png"
+    },
+    "users": [
+        {
+            "id": 1,
+            "name": "Kye Wright",
+            "username": "kye-wright",
+            "password": "password",
+            "page": "",
+            "clients": [ 
+                {
+                    "name": "BMIN",
+                    "stackerURL": "buhler.com"
+                },
+                {
+                    "name": "Groovy",
+                    "stackerURL": "groovy.com"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Sandra Pollock",
+            "username": "sandra-pollock",
+            "password": "password",
+            "page": "",
+            "clients": [ 
+                {
+                    "name": "Ricardo",
+                    "stackerURL": "ricardo.com"
+                }
+            ]
+        }
+    ]
+}

@@ -16,13 +16,5 @@ server.set('view engine', 'hbs')
 //Middleware
 server.use('/', serverRoutes)
 
-//Test set up to check it is running
-server.get('/', (req, res) => {
-  fs.readFile('./portal.json', 'utf-8', (err, data) => {
-    if (err) return res.status(500).send(err.message)
-    const parsedData = JSON.parse(data)
-    res.render('home', parsedData)
-  })
-})
 
 module.exports = server

@@ -102,6 +102,10 @@ input {
   margin: 10px;
 }
 
+.failed-login {
+  color: red;
+}
+
 .homepage-button {
   padding: 20px;
 }
